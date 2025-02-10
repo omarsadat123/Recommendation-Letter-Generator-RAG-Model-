@@ -1,0 +1,39 @@
+[
+    {
+      "type": "academic",
+      "level": "high",
+      "template": 
+      "[Recommender Name]\n[Position]\n[University]\n\nDear,\n\nIt is with great enthusiasm that I recommend [Applicant Name] for the [Program]. As their professor for the **Advanced Machine Learning** course, I had the opportunity to witness their extraordinary analytical abilities, creativity, and academic drive. [Applicant Name] maintained a **stellar 3.95 GPA** and ranked among the **top 1% of the class**.\n\nTheir research on **[Research Topic]** was groundbreaking, leading to a publication in **[Journal Name]**. Additionally, their AI model for **[AI Project]** demonstrated innovation and practical impact. Their ability to code in **[Skills]** set them apart in the field.\n\nBeyond academics, they presented at the **[Conference Name]**, showcasing their ability to communicate complex ideas effectively. Their combination of **academic brilliance, research acumen, and technical expertise** makes them an outstanding candidate for your program.\n\nI strongly endorse [Applicant Name] for admission and believe they will make invaluable contributions. Please feel free to reach out for further details.\n\nSincerely,\n[Recommender Name]"
+    },
+    {
+      "type": "academic",
+      "level": "high",
+      "template": "[Recommender Name]\n[Position]\n[University]\n\nDear,\n\nI am honored to recommend [Applicant Name] for the [Program]. Having taught them in **Computational Neuroscience**, I can confidently say they are one of the most brilliant students I have encountered. With a **perfect 4.00 GPA** and a **Gold Medal in the department**, they have demonstrated unmatched academic excellence.\n\nTheir **research on AI-driven cognitive models** is truly pioneering, bridging the gap between neuroscience and artificial intelligence. Their project on an **AI-based mental health diagnosis system** received immense recognition, reflecting both innovation and societal impact.\n\nWhat sets [Applicant Name] apart is their ability to translate complex theoretical concepts into practical solutions. Their **strong grasp of mathematical modeling, Python, and MATLAB** allowed them to conduct cutting-edge simulations that greatly contributed to our department’s research. Furthermore, their invitation as a **guest speaker at [Symposium Name]** highlights their leadership in the field.\n\nI have no doubt that [Applicant Name] will excel in the [Program] and make remarkable contributions. I highly recommend them without reservation.\n\nSincerely,\n[Recommender Name]"
+    },
+    {
+      "type": "academic",
+      "level": "medium-high",
+      "template": "[Recommender Name]\n[Position]\n[University]\n\nDear,\n\nI am pleased to recommend [Applicant Name] for the [Program]. As a student in my **Data Science Fundamentals** course, they consistently demonstrated strong analytical skills and an eagerness to learn. With a **3.75 GPA**, they ranked in the **top 10%** of the class.\n\nTheir participation in a **faculty-led research project on big data analytics** showcased their ability to handle complex datasets efficiently. Additionally, their project on developing a **recommendation system for a startup** reflected both technical proficiency and innovation.\n\nTheir **expertise in Python, SQL, and data visualization** makes them a well-rounded candidate for advanced studies. I am confident they will be a valuable addition to the [Program].\n\nSincerely,\n[Recommender Name]"
+    },
+    {
+      "type": "academic",
+      "level": "medium",
+      "template": "[Recommender Name]\n[Position]\n[University]\n\nDear,\n\nI am happy to recommend [Applicant Name] for the [Program]. As a student in my **Statistics and Probability** course, they demonstrated steady performance and a strong interest in analytical concepts. With a **3.50 GPA**, they maintained a good academic record.\n\nThough they have not engaged in extensive research, their participation in **coursework projects on statistical modeling** showed their ability to apply theoretical concepts. Their proficiency in **Excel, R, and data analysis** makes them a strong candidate for further studies.\n\nI believe [Applicant Name] will benefit from the academic environment at your institution.\n\nSincerely,\n[Recommender Name]"
+    },
+    {
+      "type": "academic",
+      "level": "medium-low",
+      "template": "[Recommender Name]\n[Position]\n[University]\n\nDear,\n\nI had the opportunity to teach [Applicant Name] in [Course]. They completed the course with a CGPA of [CGPA]. While their performance was not exceptional, they demonstrated a basic understanding of [Field]. I believe they have potential for growth with the right guidance.\n\nSincerely,\n[Recommender Name]"
+    },
+    {
+      "type": "academic",
+      "level": "low",
+      "template": "[Recommender Name]\n[Position]\n[University]\n\nDear,\n\n[Applicant Name] completed [Course] under my supervision. Their academic performance was below expectations, with a CGPA of [CGPA]. While they have made efforts to improve, they may face challenges in a highly competitive environment.\n\nSincerely,\n[Recommender Name]"
+    },
+    {
+      "type": "academic",
+      "level": "dont-provide",
+      "template": "[Recommender Name]\n[Position]\n[University]\n\nDear,\n\nI regret to inform you that I am unable to provide a strong recommendation for [Applicant Name]. Their performance in [Course] was not at the level required for advanced studies.\n\nSincerely,\n[Recommender Name]"
+    }
+  ]
+  

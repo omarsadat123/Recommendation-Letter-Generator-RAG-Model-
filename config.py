@@ -1,0 +1,1 @@
+GROQ_API = "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"
