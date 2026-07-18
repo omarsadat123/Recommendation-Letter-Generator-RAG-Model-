@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:4F46E5,100:EC4899&height=220&section=header&text=Recommendation%20Letter%20Generator&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=RAG%20powered%20Streamlit%20app%20for%20personalized%20LOR%20generation&descAlignY=60&descSize=18" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:4F46E5,100:EC4899&height=220&section=header&text=Recommendation%20Letter%20Generator&fontSize=44&fontColor=ffffff&animation=fadeIn" />
 
 <br />
 
@@ -15,7 +15,7 @@
 
 ## ✨ Overview
 
-This project analyzes student information, retrieves the closest matching recommendation-letter template with **FAISS + sentence embeddings**, and generates a tailored letter using **Groq-hosted Llama models**.
+This project analyzes student information, retrieves the closest matching recommendation-letter template with **FAISS + sentence embeddings**, and generates a tailored letter using **Groq-hosted LLMs**.
 
 ---
 
@@ -75,11 +75,19 @@ E --> F[Generate final LOR with Groq]
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/omarsadat123/Recommendation-Letter-Generator-RAG-Model-/main/assets/app-preview.png" alt="App Preview" width="900" />
+### 📤 Profile Upload
+![Profile Upload](Profile%20Upload.png)
+
+### 🧠 Profile Based Score
+![Profile Based Score](Profile%20Based%20Score.png)
+
+### 🕘 LOR History
+![LOR History](LOR%20History.png)
+
+### 📄 Sample LOR
+![Sample LOR](Sample%20LOR.png)
 
 </div>
-
-> Replace the image above with your real app screenshot after adding `assets/app-preview.png`.
 
 ---
 
@@ -149,7 +157,6 @@ Research: Undergraduate research assistant in AI
 
 ## 🔮 Suggested improvements
 
-- Add a real screenshot to `assets/app-preview.png`
 - Add a GIF demo section
 - Add a sidebar with tips and sample prompts
 - Add PDF/DOCX export for generated letters
