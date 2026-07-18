@@ -2,16 +2,16 @@
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:4F46E5,100:EC4899&height=220&section=header&text=Recommendation%20Letter%20Generator&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=RAG%20powered%20Streamlit%20app%20for%20personalized%20LOR%20generation&descAlignY=60&descSize=18" />
+
+<br />
+
 ![Python](https://img.shields.io/badge/Python-100%25-blue?style=for-the-badge&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit)
 ![FAISS](https://img.shields.io/badge/FAISS-Retrieval-00A6D6?style=for-the-badge)
 ![Groq](https://img.shields.io/badge/Groq-LLM-111827?style=for-the-badge)
 
-A polished Streamlit app that uses **Retrieval-Augmented Generation (RAG)** to draft personalized academic letters of recommendation.
-
 </div>
-
----
 
 ## ✨ Overview
 
@@ -19,33 +19,81 @@ This project analyzes student information, retrieves the closest matching recomm
 
 ---
 
+## 🎯 What this app does
+
+<table>
+<tr>
+<td width="50%">
+
+### 📥 Input
+- Upload a `.txt` file with student details
+- Review extracted information directly in the app
+- Choose the recommendation intensity
+
+</td>
+<td width="50%">
+
+### 🤖 AI Pipeline
+- Score student profile signals
+- Retrieve the best template from FAISS
+- Generate a polished LOR with an LLM
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 🚀 Features
 
-- 📄 Upload a student profile as a `.txt` file
-- 🧠 Score the profile using keyword and similarity signals
-- 🔎 Retrieve the most relevant LOR template with FAISS
-- ✍️ Generate a professional letter with Groq API
-- 🎚️ Choose the recommendation strength before generating the final letter
-- 📥 Download the generated letter as plain text
+<div align="center">
+
+| 📄 Upload | 🧠 Score | 🔎 Retrieve | ✍️ Generate | 📥 Download |
+|---|---|---|---|---|
+| Student profile input | Signal-based rating | Template similarity search | Formal LOR generation | Save output as text |
+
+</div>
 
 ---
 
 ## 🧩 How it works
 
-1. **Parse student information** from the uploaded text.
-2. **Score the profile** using CGPA, achievements, skills, and research signals.
-3. **Retrieve similar templates** using `all-MiniLM-L6-v2` embeddings and FAISS.
-4. **Generate the final letter** with a level-based prompt.
+```mermaid
+graph TD
+A[Upload student profile] --> B[Extract CGPA, skills, achievements, research]
+B --> C[Compute rating]
+C --> D[Search FAISS index]
+D --> E[Pick recommendation level]
+E --> F[Generate final LOR with Groq]
+```
+
+> If GitHub does not render Mermaid in your view, this flow is: **Upload → Analyze → Retrieve → Generate → Download**.
+
+---
+
+## 🖼️ Visual preview
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/omarsadat123/Recommendation-Letter-Generator-RAG-Model-/main/assets/app-preview.png" alt="App Preview" width="900" />
+
+</div>
+
+> Replace the image above with your real app screenshot after adding `assets/app-preview.png`.
 
 ---
 
 ## 🏗️ Project structure
 
-- `main.py` — Streamlit UI and app flow
-- `lor_indexer.py` — Template embedding and FAISS retrieval
-- `lor_generator.py` — LOR generation via Groq API
-- `sample_lor.json` — Example recommendation-letter templates
-- `config.py` — API key configuration
+```text
+Recommendation-Letter-Generator-RAG-Model-
+├── main.py
+├── lor_indexer.py
+├── lor_generator.py
+├── sample_lor.json
+├── config.py
+└── README.md
+```
 
 ---
 
@@ -99,30 +147,20 @@ Research: Undergraduate research assistant in AI
 
 ---
 
-## 🎨 UI preview
+## 🔮 Suggested improvements
 
-> Add a screenshot here later for a more visual README.
-
-```md
-![App Preview](assets/app-preview.png)
-```
+- Add a real screenshot to `assets/app-preview.png`
+- Add a GIF demo section
+- Add a sidebar with tips and sample prompts
+- Add PDF/DOCX export for generated letters
+- Add tests for scoring and retrieval logic
+- Add a modern theme and better spacing in Streamlit
 
 ---
 
 ## 🛡️ Security note
 
 Do **not** commit API keys to the repository. Rotate any exposed keys immediately and use environment variables or secret managers instead.
-
----
-
-## 🔮 Suggested improvements
-
-- Move secrets out of source code and into environment variables
-- Add loading and error states in the UI
-- Add tests for scoring and level selection logic
-- Improve template ranking by using cosine similarity
-- Add export to PDF / DOCX for the generated letter
-- Add a cleaner UI theme and sidebar layout
 
 ---
 
