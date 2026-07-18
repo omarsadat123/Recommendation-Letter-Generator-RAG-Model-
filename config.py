@@ -1,1 +1,3 @@
-GROQ_API = "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"
+import os
+
+GROQ_API = os.getenv("GROQ_API_KEY", "")
